@@ -1,0 +1,89 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+
+/* @theme {
+  --font-roboto: "Roboto", sans-serif; 
+} */
+ 
+        html {
+          scroll-behavior: smooth;
+        }
+
+body{
+	 overflow-x: hidden;
+	 color: #F5F5F5;
+
+
+}
+
+:root{
+    background-color: #000000;
+       
+
+font-family: var(--font-serif);
+     /* scroll-behavior: smooth */
+
+}
+
+/* global.css */
+
+/* global.css */
+/* .custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; 
+  border-radius: 9999px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: #e5e7eb; 
+} */
+
+
+/*  */
+
+#style-4::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #000000;
+	     scroll-behavior: smooth
+
+}
+
+#style-4::-webkit-scrollbar
+{
+	/* width: 10px; */
+   scrollbar-width: none;
+	background-color: #000000;
+	     scroll-behavior: smooth
+
+}
+
+/* #style-4::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+} */
+
+:root::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #000000;
+
+}
+
+:root::-webkit-scrollbar
+{
+	/* width: 10px; */
+   scrollbar-width: none;
+	background-color: #000000;
+}
+
+
+@media (min-width: 396px) and (max-width: 639px) {
+	#h1ak{
+		font-size:24px ;
+	}
+}
