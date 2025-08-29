@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import MovieList from '../components/MovieList'
-import avengers from  "../assets/back/avengers.jpg"
-import ironman from "../assets/691515.jpg"
+import ironman from "../assets/back/691515.jpg"
 import got  from '../assets/back/peakpx.jpg'
 import batman from '../assets/back/batman.jpg'
 import { FaAngleLeft } from "react-icons/fa";
@@ -9,7 +8,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 function Home() {
 
-  let images = [ironman, batman,got, avengers];
+  let images = [ironman,got, batman];
 
   let [i, setI] = useState(0);
   let [pic, setPic] = useState(images[0]);

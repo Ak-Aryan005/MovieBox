@@ -19,7 +19,7 @@ function MovieList() {
       <MovieSection title="Sci-Fi  Movies" movies={Scifi} />
       <MovieSection title="Action Movies" movies={action} />
       <MovieSection title="Animation" movies={Animation} />
-      <MovieSection title="Adventure" movies={Adventure} />
+      <MovieSection title="Adventure Movies" movies={Adventure} />
       <MovieSection title="Comedy Movies" movies={comedy} />
       <MovieSection title="Marvel Movies" movies={marvel} />
       <MovieSection title="DC Pictures" movies={dc} />

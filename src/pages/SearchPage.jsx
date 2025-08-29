@@ -23,7 +23,7 @@ setak(sea)
     
   return (
     <>      
- <div id='style-4' className='text-amber-50 md:ml-16 m-4   flex flex-wrap   gap-3     '>
+ <div id='style-4' className='text-amber-50 md:ml-16 m-4 justify-center   flex flex-wrap   gap-3     '>
    {ak.length > 0? ak.map((movie,index) => searchData ? 
            <MovieCard key={movie.id+index} title={movie.title} img={movie.poster_path} id={movie.id}  /> : <p>not found</p>
          ) : "" }

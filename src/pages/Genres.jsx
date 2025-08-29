@@ -38,7 +38,7 @@ const change=(val)=>{
   </ul>
 </div>
 
-<div id='style-4' className='text-amber-50 md:ml-16 m-3    flex flex-wrap   gap-3     '>
+<div id='style-4' className='text-amber-50 md:ml-16 m-3  justify-center   flex flex-wrap   gap-3     '>
  
        { box.map((movie, index) => (
         <MovieCard 
