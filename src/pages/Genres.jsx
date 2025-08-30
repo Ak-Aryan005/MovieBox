@@ -21,9 +21,9 @@ useEffect(() => {
 }, [genre])
 
 const change=(val)=>{
+  setCount(1)
  setgen(val)  
     setbox([])
-    setCount(1)
 }
 
   return (

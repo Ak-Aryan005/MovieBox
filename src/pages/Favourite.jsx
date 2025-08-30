@@ -7,8 +7,8 @@ function Favourite() {
   return (
     <div>
 
-      {fav==""? <p className='w-full h-full md:text-5xl flex mt-8 justify-center md:m-10 ' >Add your Favourite Movies</p> : 
-      <div  id='style-4' className='text-amber-50 md:ml-16 m-3 mt-5 justify-center flex flex-wrap   gap-3'    >
+      {fav.length===1? <p className='w-full h-full md:text-5xl flex mt-8 justify-center md:m-10 ' >Add your Favourite Movies</p> :""}
+      <div  id='style-4' className='text-amber-50 md:ml-16 m-3 mt-5 justify-between  flex flex-wrap   gap-3'    >
          {
       fav?  fav.map((data,index)=>
         
@@ -16,7 +16,7 @@ function Favourite() {
         ) : <p>no data</p>
       }
       </div>
-}
+
     </div>
   )
 }
