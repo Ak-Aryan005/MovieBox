@@ -1,5 +1,5 @@
 import MovieSection from './MovieSection';
-import { useAniTypes, useComTypes, useDCTypes, useMarvelTypes, useActionMovies, usepopulerMovies,useScifiMovies, useTrendingMovies, useAdventureMovies } from '../api/index'
+import { useAniTypes, useComTypes, useDCTypes, useMarvelTypes, useActionMovies, usepopulerMovies,useScifiMovies, useTrendingMovies, useAdventureMovies } from '../../api/index'
 function MovieList() {
     
      const popular = usepopulerMovies();

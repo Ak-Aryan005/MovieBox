@@ -1,5 +1,5 @@
 import React, {useEffect } from 'react'
-import { useGenres } from '../api/index'
+import { useGenres } from '../../api/index'
 import { useMovieContext } from '../context/MoviesContext'
 import MovieCard from '../components/MovieCard'
 function Genres() {

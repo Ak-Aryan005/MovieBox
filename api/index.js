@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useMovieContext } from "../context/MoviesContext";
+import { useMovieContext } from "../src/context/MoviesContext";
 
 let key="bdb48e358f0c17e1bda1367a9bb75ced"
 

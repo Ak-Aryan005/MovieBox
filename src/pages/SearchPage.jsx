@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useMovieContext } from '../context/MoviesContext'
 import MovieCard from '../components/MovieCard'
-import { useMoviesearch } from '../api/index'
+import { useMoviesearch } from '../../api/index'
 function SearchPage() {
     const {searchData} = useMovieContext()
     const sea=useMoviesearch()

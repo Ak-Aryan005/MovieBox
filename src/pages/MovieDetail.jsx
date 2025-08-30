@@ -1,5 +1,5 @@
 import React from 'react'
-import { usepopulerMovies,useDetail, useMoviesearch } from '../api/index'
+import { usepopulerMovies,useDetail, useMoviesearch } from '../../api/index'
 import Details from './Details'
 function MovieDetail() {
 const data = usepopulerMovies()
