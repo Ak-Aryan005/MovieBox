@@ -38,7 +38,7 @@ function Home() {
   return (
     <div>
       <div className='m-4 relative' > 
-        <img className='w-full md:h-[650px]   md:pr-[10px] md:pl-[10px] ' src={pic} alt="" />
+        <img className='w-full md:h-[650px]   md:pr-[10px] md:pl-[10px] ' loading="lazy" src={pic} alt="" />
  <h1 id='h1ak' className="  absolute max-w-[600px] top-1/2 left-6 md:left-16 
  sm:text-3xl   md:text-5xl font-bold leading-snug 
 bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent 

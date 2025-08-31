@@ -29,7 +29,7 @@ const handle = () => {
      <img className='w-full md:h-[550px] md:pr-[10px] md:pl-[10px] ' loading="lazy" src={`https://image.tmdb.org/t/p/original${background}`   } alt="poster" />
 
       <div className='flex w-full h-full mt-7'>
-        <img className=' w-32 h-36 md:w-[400px] md:h-[400px] rounded-[7px] md:mr-2.5  ' src={`https://image.tmdb.org/t/p/w780${poster}`} alt="poster" />
+        <img className=' w-32 h-36 md:w-[400px] md:h-[400px] rounded-[7px] md:mr-2.5  ' loading="lazy" src={`https://image.tmdb.org/t/p/w780${poster}`} alt="poster" />
         <span className='ml-4 text-shadow-pink-500 self-center'>
       <button className='h-fit bg-[#FF0000] p-2 rounded-[5px]  mb-2.5 cursor-pointer' onClick={handle } >
          {fav.some(item => item.id === id) ? "Remove from Favourites"   : "Add to Favourites"}
